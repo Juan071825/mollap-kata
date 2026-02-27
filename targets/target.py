@@ -1,9 +1,8 @@
 class Target():
 
-    def __init__(self, nombre):
-        self.nombre = nombre
+    def __init__(self, cliente):
+        self.cliente = cliente
 
     def ejecucion(self):
         pass
 
-    
