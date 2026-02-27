@@ -7,6 +7,6 @@ class Cliente():
         pass
 
     def enviarPeticion(self):
-        return self.nombre
+        pass
 
 
