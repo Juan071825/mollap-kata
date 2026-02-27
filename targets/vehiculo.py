@@ -2,9 +2,18 @@ from target import Target
 
 class Vehiculo(Target):
 
-    def __init__(self, nombre):
-        Target.__init__(self, nombre)
+
+    def ejecucion(self, cliente:str):
+        print(f"Puerta abierta {self.cliente}!")
 
 
-    def ejecucion(self):
-        print(f"Puerta abierta {self.nombre}!")
+    
+if __name__ == '__main__':
+
+    def test_vehiculo():
+        vehiculo = Vehiculo()
+
+        return vehiculo.ejecucion("Juan")
+
+
+    test_vehiculo()
