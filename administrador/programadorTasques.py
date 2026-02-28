@@ -1,16 +1,20 @@
-from tareas import Tareas
+from administrador.tareas import Tareas
 
 class ProgramadorTasques():
 
     def __init__(self, target):
-        self.tasques = Tareas()
-        self.tasques.setTarget(target)
+        self.tareas = Tareas()
+        self.tareas.setTarget(target)
 
-    def getTarea():
+    def getTarea(self):
         pass
 
-    def setTarea():
+    def setTarea(self):
         pass
 
-    def ejecutarTareas(self):
-        self.tasques.ejecucion()
+    def setTarea(self, filtro):
+        self.tareas.addTarea(filtro)
+
+
+    def ejecutarTareas(self, peticion):
+        self.tareas.ejecucion(peticion)
