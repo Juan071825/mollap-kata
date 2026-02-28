@@ -1,8 +1,6 @@
-from administrador.programadorTasques import ProgramadorTasques
-
 class Cliente():
 
-    def setProgramadorTasques(self, programadorTasques):
+    def setProgramadorTasques(self):
         pass
 
     def enviarPeticion(self, peticion):
