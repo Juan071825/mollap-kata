@@ -1,9 +1,7 @@
-from target import Target
-
-class Vehiculo(Target):
+class Vehiculo():
 
 
-    def ejecucion(self, cliente:str):
+    def ejecucion(self, cliente):
         print(f"Puerta abierta {self.cliente}!")
 
 
