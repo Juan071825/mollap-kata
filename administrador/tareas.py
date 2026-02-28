@@ -13,10 +13,10 @@ class Tareas():
     def addTarea(self, filtre):
         self.tareas.append(filtre)
 
-    def ejecucion(self, target):
+    def ejecucion(self, peticion):
 
         for filtre in self.tareas:
-            filtre.ejecucion()
+            filtre.ejecucion(peticion)
 
     def setTarget(self, target):
         self.target = target
