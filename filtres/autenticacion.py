@@ -1,6 +1,6 @@
-from filtro import Filtro
+from filtres.filtro import Filtro
 
 class Autenticacion(Filtro):
 
-    def ejecucion(self):
+    def ejecucion(self, peticion):
         print("Autenticación OK.")
